@@ -9,7 +9,8 @@ A Minecraft 1.8.9 client built in **Rust and Apple Metal**.
 - Protocol 47 networking with encryption, compression, and Microsoft sign-in.
 - All 198 block IDs and 2,557 blockstate variants loaded from the player's own game jar.
 - Tick-accurate movement checked against an official vanilla server. Stair collisions compared across 52,488 neighbour configurations.
-- Native Retina rendering, threaded chunk meshing, and interpolated players. Combat and interaction are in progress.
+- Native Retina rendering, threaded chunk meshing, interpolated players, armor, and asynchronous skin/cape textures.
+- User-driven combat, block interaction, and inventory windows verified against vanilla. Remaining parity work is in progress.
 
 [Explore the source and verification details →](https://github.com/Bobshiona/horizon-1.8.9)
 
